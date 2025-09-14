@@ -11,4 +11,4 @@ body:
      options:
        - label: | 
             上游项目**不存在**这个问题
-         required: true
+         required: false
