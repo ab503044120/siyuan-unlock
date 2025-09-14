@@ -44,6 +44,7 @@ jobs:
           cd siyuan-android
 
           git apply --ignore-whitespace --verbose ${{ github.workspace }}/siyuan-note/patches/siyuan-android/debug-build.patch
+          git apply --ignore-whitespace --verbose ${{ github.workspace }}/siyuan-note/patches/siyuan-android/show_navigation_bar.patch
 
           mkdir -p app/src/main/assets/
           mkdir -p app/libs/

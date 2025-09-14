@@ -1,0 +1,19 @@
+Subject: [PATCH] show_navigation_bar
+---
+Index: app/src/main/java/org/b3log/siyuan/MainActivity.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app/src/main/java/org/b3log/siyuan/MainActivity.java b/app/src/main/java/org/b3log/siyuan/MainActivity.java
+--- a/app/src/main/java/org/b3log/siyuan/MainActivity.java	(revision 595b69296457987433f0e114086ec24c051410bd)
++++ b/app/src/main/java/org/b3log/siyuan/MainActivity.java	(date 1757820964288)
+@@ -166,7 +166,7 @@
+             ((ViewGroup) webView.getParent()).setPadding(0, UltimateBarX.getStatusBarHeight(), 0, 0);
+         }
+ 
+-        BarUtils.setNavBarVisibility(this, false);
++        BarUtils.setNavBarVisibility(this, true);
+ 
+         // Fix https://github.com/siyuan-note/siyuan/issues/9726
+         // KeyboardUtils.fixAndroidBug5497(this);
